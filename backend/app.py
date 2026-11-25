@@ -1,9 +1,11 @@
-departments = ["HR", "IT", "Production", "Finance"]
-department = "IT"
 
-if department == "HR":
-    print("Human Resources")
-elif department == "IT":
-    print("Information Technology")
-else:
-    print("Other department")
+employee = {
+    "name": "Ahmad",
+    "department": "IT",
+    "age": 30,
+    "position":"Manager"
+}
+
+print(employee["name"])
+print(employee["department"])
+print(employee["position"])
