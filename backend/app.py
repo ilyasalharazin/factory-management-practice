@@ -1,2 +1,3 @@
+project_name = "Factory Management System"
 
-print("Hello, Factory Management System!")
+print(project_name)
