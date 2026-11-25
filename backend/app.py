@@ -1,5 +1,5 @@
 departments = ["HR", "IT", "Production", "Finance"]
-	department = "IT"
+department = "IT"
 
 if department == "HR":
     print("Human Resources")
