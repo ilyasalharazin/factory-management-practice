@@ -20,7 +20,9 @@ def find_by_department(dept):
 		if employee ["department"]==dept:
 			result.append(employee ["name"])
 	return result
-find_by_department(dept)
+
+#print(find_by_department(print(f"collect employees from department named{input()}")))
+print(find_by_department(dept))
 
 def calculate_total_salary():
 	total_salaries=0
