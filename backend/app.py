@@ -11,16 +11,15 @@ employees = [
 for index, employee  in enumerate(employees , start=1):
         print(f"{index} - {employee ['name']} - {employee ['department']} - {employee ['salary']}")
 
-#print("please enter the department name to search its employee's")
-#dept=""
+
 
 def find_by_department(dept):
 	result=[]
 	for index, employee  in enumerate(employees , start=1):
 		if employee ["department"]==dept:
-			result.append(employee ["name"])
+			result.append(employee)
 	return result
-#print(find_by_department(dept))
+
 print("which department employees are you looking for")
 print(find_by_department(dept= input()))
 
