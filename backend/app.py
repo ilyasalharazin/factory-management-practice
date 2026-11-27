@@ -11,7 +11,7 @@ employees = [
 for index, employee  in enumerate(employees , start=1):
         print(f"{index} - {employee ['name']} - {employee ['department']} - {employee ['salary']}")
 
-print("please enter the department name to search its employee's")
+#print("please enter the department name to search its employee's")
 dept=input()
 
 def find_by_department(dept):
@@ -20,9 +20,9 @@ def find_by_department(dept):
 		if employee ["department"]==dept:
 			result.append(employee ["name"])
 	return result
+#print(find_by_department(dept))
+print(find_by_department(print(f"collect employees from department named{input()}")))
 
-#print(find_by_department(print(f"collect employees from department named{input()}")))
-print(find_by_department(dept))
 
 def calculate_total_salary():
 	total_salaries=0
