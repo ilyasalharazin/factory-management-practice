@@ -6,5 +6,5 @@ employees = [
 ]
 
 for index, employee  in enumerate(employees , start=1):
-        print(f"{index} - {name} - {department} - {salary}")
+        print(f"{index} - {employee [name]} - {department} - {salary}")
 
