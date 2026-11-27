@@ -46,5 +46,5 @@ for department , salary in zip(department_list, employees_salary):
 
 print (f"Please key in new employees data")
 for index in enumerate (employees, start=1):
-		print(index)
+		print(index[1])
 		
