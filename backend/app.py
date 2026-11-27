@@ -13,4 +13,4 @@ dept=input()
 def find_by_department(dept):
 	for employee in employees:
         if details.["department"]==dept
-    		print(details.["department"])
+    	print(details.["department"])
