@@ -13,6 +13,6 @@ dept=input()
 
 def find_by_department(dept):
 	for index, employee  in enumerate(employees , start=1):
-		print(f"{index} - {employee ['name']} - {employee ['department']} - {employee ['salary']}"))
+		print(f"{index} - {employee ['name']} - {employee ['department']} - {employee ['salary']}")
 		return()
 find_by_department(dept)
