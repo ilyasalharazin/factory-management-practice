@@ -20,7 +20,7 @@ def find_by_department(dept):
 			result.append(employee)
 
 	if not result:
-			print("No such Department available")
+			return("No such Department available")
 	else:
 			return result 
 
