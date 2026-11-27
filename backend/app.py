@@ -10,9 +10,9 @@ for index, employee  in enumerate(employees , start=1):
 
 print("please enter the department name to search its employee's")
 dept=input()
-list[]
+
 def find_by_department(dept):
 	for index, employee  in enumerate(employees , start=1):
-		list.append(print(f"{index} - {employee ['name']} - {employee ['department']} - {employee ['salary']}"))
-		return list
+		print(f"{index} - {employee ['name']} - {employee ['department']} - {employee ['salary']}"))
+		return()
 find_by_department(dept)
