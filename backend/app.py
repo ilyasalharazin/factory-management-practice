@@ -18,6 +18,8 @@ def find_by_department(dept):
 	for index, employee  in enumerate(employees , start=1):
 		if employee ["department"]==dept:
 			result.append(employee)
+		elif not result:
+			print("No such Department available")
 	return result
 
 print("which department employees are you looking for")
