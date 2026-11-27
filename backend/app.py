@@ -23,6 +23,8 @@ find_by_department(dept)
 def calculate_total_salary():
 	total_salaries=0
 	for employee in employees:
-		return(total_salaries += employee ["salary"])
+		total_salaries += employee ["salary"]
+
+return total_salaries
 
 print(f"total salaries, {calculate_total_salary()}")
