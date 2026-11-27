@@ -56,7 +56,7 @@ employees [newind]["name"]=input
 print ("please enter employee department")
 employees [newind]["department"]=input
 print ("please enter employee salary")
-employees [newind]["name"]=input
+employees [newind]["salary"]=input
 
 print(employee [newind])
 
