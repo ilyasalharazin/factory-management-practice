@@ -30,5 +30,5 @@ print(f"total salaries, {calculate_total_salary()}")
 
 for employee in employees:
 	if employee ["salary"] > 3000:
-		print(details [employee])
+		print(employee.items())
 
