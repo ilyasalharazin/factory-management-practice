@@ -8,3 +8,7 @@ employees = [
 for index, employee  in enumerate(employees , start=1):
         print(f"{index} - {employee ['name']} - {employee ['department']} - {employee ['salary']}")
 
+print("please enter the department name to search its employee's")
+dept=input()
+print(dept)
+#def find_by_department(department)
