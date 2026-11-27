@@ -61,7 +61,7 @@ print ("please enter employee department")
 department=input()
 print ("please enter employee salary")
 salary=input()
-employees.append("name": name, "department": department, "salary": salary)
+employees.append({"name": name, "department": department, "salary": salary})
 
 for index, employee  in enumerate(employees , start=1):
         print(f"{index} - {employee ['name']} - {employee ['department']} - {employee ['salary']}")
