@@ -45,13 +45,7 @@ def get_dept():
 			dept_list.append(employee ["department"])
 
 	return dept_list
-
-
-
-			
-			
-			
-		
+print(get_dept())
 print(get_dept())
 	
 	
