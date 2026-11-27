@@ -51,8 +51,5 @@ for index in enumerate (employees, start=1):
 
 print(f"new employee id is{newind+1}")
 
-
-for index in enumerate(employees):
-	if index==newind:
 		
 		
