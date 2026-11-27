@@ -21,6 +21,6 @@ def find_by_department(dept):
 find_by_department(dept)
 def calculate_total_salary():
 	for employee in employees:
-		return(total_salaries=total_salaries+int(employee ["salary"]))
+		return(total_salaries+=int(employee ["salary"]))
 
 print(f"total salaries, {calculate_total_salary()}")
