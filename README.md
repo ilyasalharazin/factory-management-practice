@@ -28,3 +28,5 @@ Learning Objectives
 - Database connectivity
 - Authentication and authorization
 - Row Level Security (RLS)
+
+git clone https://github.com/ilyasalharazin/factory-management-practice.git
