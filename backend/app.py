@@ -44,7 +44,14 @@ def get_dept():
 		if employee ["department"] not in dept_list:
 			dept_list.append(employee ["department"])
 
-return dept_list
+	return dept_list
+
+
+
+			
+			
+			
+		
 print(get_dept())
 	
 	
