@@ -82,7 +82,11 @@ print ("please enter employee department")
 department=input()
 print ("please enter employee salary")
 salary=int(input())
-employee={"name","department","salary"}
+employee={
+	"name":name,
+	"department": department,
+	"salary": salary 
+}
 employees.append(employee )
 
 for index, employee  in enumerate(employees , start=1):
