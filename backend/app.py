@@ -34,7 +34,7 @@ for employee in employees:
 
 department_list=[]
 for employee in employees:
-	department_list.append()
+	department_list.append(employee["department"])
 
 print(department_list)
 
