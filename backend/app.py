@@ -21,7 +21,7 @@ def find_by_department(dept):
 
 	if not result:
 			print("No such Department available")
-		elif:
+	elif:
 			return result 
 
 print("which department employees are you looking for")
