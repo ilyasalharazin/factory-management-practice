@@ -1,3 +1,4 @@
+
 employees = [
     {"name": "Ahmed", "department": "IT", "salary": 3000},
     {"name": "Omar", "department": "HR", "salary": 3500},
@@ -60,8 +61,12 @@ print ("please enter employee department")
 department=input()
 print ("please enter employee salary")
 salary=input()
+employees.append("name": name, "department": department, "salary": salary)
 
-print(employee [newind])
+for index, employee  in enumerate(employees , start=1):
+        print(f"{index} - {employee ['name']} - {employee ['department']} - {employee ['salary']}")
+
+
 
 
 
