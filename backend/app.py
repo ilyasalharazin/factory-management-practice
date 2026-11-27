@@ -37,4 +37,9 @@ for employee in employees:
 	department_list.append(employee["department"])
 
 print(f" Departments Names are ,{department_list}")
+employees_salary=[]
+for employee in employees:
+	employees_salary.append(employee["salary"])
+
+print(f" Employees salaries are ,{employees_salary")
 
