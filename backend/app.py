@@ -35,7 +35,13 @@ for employee in employees:
 
 department_list=[]
 for employee in employees:
+	if employee["department"]not in department _list:
 	department_list.append(employee["department"])
+
+
+print(department_list)
+	
+	
 employees_salary=[]
 for employee in employees:
 	employees_salary.append(employee["salary"])
