@@ -32,7 +32,7 @@ for employee in employees:
 	if employee ["salary"] > 3500:
 		print(f"{employee["name"]}, Has salary more than 3500")
 
-department_list[]
+department_list=[]
 for employee in employees:
 	department_list.append()
 
