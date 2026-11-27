@@ -41,6 +41,7 @@ for employee in employees:
 
 def get_departments():
     department_list=[]
+	
 	for employee in employees:
 		if employee["department"]not in department_list:
 			department_list.append(employee["department"])
