@@ -52,5 +52,5 @@ for index in enumerate (employees, start=1):
 print (f"Please key in new employees data")
 for index in employees:
 	if index==newind:
-		print(f"new employee id is"{newind+1})
+		print(f"new employee id is{newind+1}")
 		
