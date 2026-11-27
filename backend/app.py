@@ -8,3 +8,4 @@ employees = [
 for index, (name, department, salary) in enumerate(zip(names, departments, salaries), start=1):
     if salary > 3500:
         print(f"{index} - {name} - {department} - {salary}")
+
