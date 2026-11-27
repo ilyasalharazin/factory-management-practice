@@ -41,5 +41,5 @@ employees_salary=[]
 for employee in employees:
 	employees_salary.append(employee["salary"])
 
-print(f" Employees salaries are ,{employees_salary")
+print(f" Employees salaries are ,{employees_salary}")
 
