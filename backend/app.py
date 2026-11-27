@@ -12,5 +12,5 @@ print("please enter the department name to search its employee's")
 dept=input()
 def find_by_department(dept):
 	for employee in employees:
-    	if details.["department"]==dept:
+    	#if details.["department"]==dept:
     		print(details.["department"])
