@@ -5,7 +5,6 @@ employees = [
     {"name": "Sara", "department": "Finance", "salary": 4500}
 ]
 
-for index, (name, department, salary) in enumerate(zip(name, department, salary), start=1):
-    if salary > 3500:
+for index, employee  in enumerate(employees , start=1)
         print(f"{index} - {name} - {department} - {salary}")
 
