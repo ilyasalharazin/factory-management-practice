@@ -36,7 +36,7 @@ for employee in employees:
 department_list=[]
 for employee in employees:
 	if employee["department"]not in department_list:
-	department_list.append(employee["department"])
+		department_list.append(employee["department"])
 
 
 print(department_list)
