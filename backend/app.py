@@ -19,3 +19,8 @@ def find_by_department(dept):
 			print(f"{index} - {employee ['name']} - {employee ['department']} - {employee ['salary']}")
 	return()
 find_by_department(dept)
+def calculate_total_salary():
+	for employee in employees:
+		return(total_salaries=total_salaries+int(employee ["salary"]))
+
+print(f"total salaries, {calculate_total_salary()}")
