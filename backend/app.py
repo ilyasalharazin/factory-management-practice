@@ -24,7 +24,6 @@ def calculate_total_salary():
 	total_salaries=0
 	for employee in employees:
 		total_salaries += employee ["salary"]
-
-return total_salaries
+	return total_salaries
 
 print(f"total salaries, {calculate_total_salary()}")
