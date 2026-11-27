@@ -51,15 +51,15 @@ for index in enumerate (employees, start=1):
 
 print(f"new employee id is: {newind+1}")
 employees.append(newind+1)
-newind= newind+1
 
-print(employee[newind][])
+
+
 print("please enter employee name")
-employees [newind]["name"]=input
+name=input()
 print ("please enter employee department")
-employees [newind]["department"]=input
+department=input()
 print ("please enter employee salary")
-employees [newind]["salary"]=input
+salary=input()
 
 print(employee [newind])
 
