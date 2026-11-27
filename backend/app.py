@@ -66,16 +66,6 @@ for department , salary in zip(department_list, employees_salary):
 
 
 
-
-newind=0
-for index in enumerate (employees, start=1):
-		newind=index[0]
-
-print(f"new employee id is: {newind+1}")
-#employees.append(newind+1)
-
-
-
 print("please enter employee name")
 name=input()
 print ("please enter employee department")
