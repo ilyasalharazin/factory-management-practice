@@ -47,6 +47,7 @@ def get_dept():
 	return dept_list
 print(get_dept())
 print(get_dept())
+print(department_list)
 	
 	
 employees_salary=[]
