@@ -36,5 +36,5 @@ department_list=[]
 for employee in employees:
 	department_list.append(employee["department"])
 
-print(department_list)
+print(f" Departments Names are ,{department_list}")
 
